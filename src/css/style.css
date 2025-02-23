@@ -519,56 +519,6 @@ html {
   }
 }
 
-.adv {
-  padding-bottom: 50px;
-  background-color: var(--light-color);
-}
-
-.adv_wrapper {
-  min-width: 100px;
-  max-width: 400px;
-  border: 2px solid var(--dark-color);
-  margin: 30px auto 0 auto;
-  padding: 30px;
-  text-align: center;
-  font-size: 24px;
-}
-
-.adv__title {
-  font-weight: bold;
-}
-
-.adv__text {
-  margin: 20px 0;
-}
-
-.timer {
-  display: grid;
-  grid-template-columns: 4.5rem 0.5rem 4.5rem 0.5rem 4.5rem 0.5rem 4.5rem;
-  font-size: 3rem;
-  justify-items: center;
-}
-
-.timer__item {
-  position: relative;
-}
-
-.timer__item::before {
-  content: attr(data-title);
-  display: block;
-  position: absolute;
-  bottom: -0.75rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.875rem;
-  color: #424242;
-}
-
-.adv__inp {
-  display: block;
-  margin: 20px auto 0 auto;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
